@@ -15,9 +15,7 @@ from langchain_community.llms import HuggingFacePipeline
 from langchain.chains import RetrievalQA
 from transformers import pipeline
 
-# ============================================================================
-# PAGE CONFIG
-# ============================================================================
+
 st.set_page_config(page_title="DataPipeline Pro", page_icon="⚡", layout="wide")
 
 # ============================================================================
